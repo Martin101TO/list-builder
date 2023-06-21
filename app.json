@@ -1,4 +1,5 @@
 {
+  "main": "index.js",
   "expo": {
     "name": "list-builder",
     "slug": "list-builder",
@@ -25,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2f595831-203a-470d-b37a-1799a9515cca"
+      }
+    },
+    "owner": "martin101_to"
   }
 }
